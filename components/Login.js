@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import { useRouter } from 'next/router'
 import dynamic from 'next/dynamic'
-import Link from 'next/Link';
+import {Link} from 'next/Link';
 import logo from "../public/images/logo.png";
 import {callLoginUser} from "../pages/api/LoginApi";
 import Grid from '@mui/material/Grid';
